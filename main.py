@@ -29,10 +29,6 @@ def get_birthdays_per_week(users):
         6: 'Sunday',
     }
 
-    all_birthdays_past = True  # Прапорець для перевірки, чи всі дні народження минули
-    upcoming_birthdays = {}
-
-    all_birthdays_past = True  # Прапорець для перевірки, чи всі дні народження минули
     upcoming_birthdays = {}  # Пустий словник для майбутніх днів народження
 
     for user in users:
